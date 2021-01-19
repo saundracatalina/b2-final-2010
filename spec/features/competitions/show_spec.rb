@@ -50,5 +50,28 @@ describe "a competition's show page" do
     expect(page).to_not have_content(@team2.hometown)
     expect(page).to_not have_content(@team2.nickname)
   end
-  it "can see the average age of all the players in the competition" 
+  xit "can see the average age of all the players in the competition" do
+    visit competition_path(@comp1)
+
+    expect(page).to have_content("Average age of all players in competition: #{@comp1.players.average_age}")
+  end
+  it "can click link to register a new team,redirects back to show and can see team added" do
+    visit competition_path(@comp1)
+
+    expect(page).to_not have_content(@team1.hometown)
+    expect(page).to_not have_content(@team1.nickname)
+
+    click_link "Register New Team"
+
+    expect(current_path).to eq(new_competition_competition_team_path(@comp1))
+
+    fill_in "hometown", with: @team1.hometown
+    fill_in "nickname", with: @team1.nickname
+
+    click_on "Add Team"
+
+    expect(current_path).to eq(competition_path(@comp1))
+    expect(page).to have_content(@team1.hometown)
+    expect(page).to have_content(@team1.nickname)
+  end
 end
