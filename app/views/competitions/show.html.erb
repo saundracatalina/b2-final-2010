@@ -7,5 +7,8 @@
   <p>Hometown: <%= team.hometown %></p>
   <p>Nickname: <%= team.nickname %></p>
   <br>
-</section>
+  </section>
 <% end %>
+<h3>Average age of players in Competition: <%= @competition.ave_players_age %></h3>
+<br>
+<p><%= link_to "Register New Team", new_competition_competition_team_path(@competition) %></p>

@@ -1,11 +1,135 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/saundra/turing/2module/practice/b2-final-2010/spec/features/competitions/show_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          4,
+          4,
+          4,
+          null,
+          4,
+          4,
+          4,
+          4,
+          null,
+          4,
+          4,
+          4,
+          4,
+          null,
+          4,
+          4,
+          4,
+          4,
+          null,
+          4,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/saundra/turing/2module/practice/b2-final-2010/spec/models/competition_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/saundra/turing/2module/practice/b2-final-2010/app/models/competition.rb": {
         "lines": [
           1,
           1,
           1,
+          null,
+          1,
+          8,
+          8,
+          8,
+          null,
           null
         ]
       },
@@ -16,14 +140,114 @@
           null
         ]
       },
+      "/Users/saundra/turing/2module/practice/b2-final-2010/spec/models/competition_team_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/saundra/turing/2module/practice/b2-final-2010/app/models/competition_team.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/saundra/turing/2module/practice/b2-final-2010/spec/models/player_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/saundra/turing/2module/practice/b2-final-2010/app/models/player.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/saundra/turing/2module/practice/b2-final-2010/spec/models/team_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/saundra/turing/2module/practice/b2-final-2010/app/models/team.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/saundra/turing/2module/practice/b2-final-2010/app/controllers/competitions_controller.rb": {
         "lines": [
           1,
           1,
-          0,
+          2,
           null,
           1,
-          1,
+          6,
           null,
           null
         ]
@@ -33,8 +257,23 @@
           1,
           null
         ]
+      },
+      "/Users/saundra/turing/2module/practice/b2-final-2010/app/controllers/competition_teams_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1611075955
+    "timestamp": 1611082633
   }
 }
