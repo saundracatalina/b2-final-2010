@@ -1,0 +1,7 @@
+<%= form_tag competition_competition_teams_path(@competition), method: :post do %>
+  <%= label_tag :hometown %>
+  <%= text_field_tag :hometown %>
+  <%= label_tag :nickname %>
+  <%= text_field_tag :nickname %>
+  <%= submit_tag "Add Team" %>
+<% end %>
