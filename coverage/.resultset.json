@@ -1,0 +1,82 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/saundra/turing/2module/practice/b2-final-2010/app/models/competition.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/saundra/turing/2module/practice/b2-final-2010/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/saundra/turing/2module/practice/b2-final-2010/spec/models/competition_team_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/saundra/turing/2module/practice/b2-final-2010/app/models/competition_team.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/saundra/turing/2module/practice/b2-final-2010/spec/models/player_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/saundra/turing/2module/practice/b2-final-2010/app/models/player.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/saundra/turing/2module/practice/b2-final-2010/spec/models/team_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/saundra/turing/2module/practice/b2-final-2010/app/models/team.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
+      }
+    },
+    "timestamp": 1611074029
+  }
+}
