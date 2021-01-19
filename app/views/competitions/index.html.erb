@@ -1,5 +1,5 @@
 <h1>All Competitions Below!</h1>
 
 <% @competitions.each do |comp| %>
-  <h3><%= comp.name %></h3>
+<h3><%= link_to "#{comp.name}", competition_path(comp) %></h3>
 <% end %>

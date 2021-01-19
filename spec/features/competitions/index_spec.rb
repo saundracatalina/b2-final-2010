@@ -13,5 +13,15 @@ describe "competition index" do
     expect(page).to have_content(@comp2.name)
     expect(page).to have_content(@comp3.name)
   end
-  it "each competition name links to it's show page"
+  it "each competition name links to it's show page" do
+    visit competitions_path
+
+    expect(page).to have_link("#{@comp1.name}")
+    expect(page).to have_link("#{@comp2.name}")
+    expect(page).to have_link("#{@comp3.name}")
+
+    click_link "#{@comp1.name}"
+
+    expect(current_path).to eq(competition_path(@comp1))
+  end
 end
