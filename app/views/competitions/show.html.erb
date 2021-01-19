@@ -1,3 +1,11 @@
 <h1><%= @competition.name %>'s Info Page</h1>
 <h3>Location: <%= @competition.location %></h3>
 <h3>Sport: <%= @competition.sport %></h3>
+<h3>Team Info:</h3>
+<% @competition.teams.each do |team| %>
+  <section id="team-<%= team.id %>">
+  <p>Hometown: <%= team.hometown %></p>
+  <p>Nickname: <%= team.nickname %></p>
+  <br>
+</section>
+<% end %>
