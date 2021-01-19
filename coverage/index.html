@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2021-01-19T11:57:13-07:00">2021-01-19T11:57:13-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2021-01-19T16:24:40-07:00">2021-01-19T16:24:40-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -30,7 +30,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.54
+         1.45
        </span>
     </span> hits/line
     )
@@ -43,8 +43,8 @@
   </div>
 
   <div class="t-line-summary">
-    <b>153</b> relevant lines,
-    <span class="green"><b>153</b> lines covered</span> and
+    <b>152</b> relevant lines,
+    <span class="green"><b>152</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed. </span>
     (<span class="green">
   100.0%
@@ -84,7 +84,7 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#aac9c00c6ebb3c0787175595e2b8849c7e1d7c9f" class="src_link" title="app/controllers/competition_teams_controller.rb">app/controllers/competition_teams_controller.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">11</td>
+            <td class="cell--number">13</td>
             <td class="cell--number">8</td>
             <td class="cell--number">8</td>
             <td class="cell--number">0</td>
@@ -117,11 +117,11 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#6df17685cafac93ab5708b1010c8e5895bf16839" class="src_link" title="app/models/competition.rb">app/models/competition.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">10</td>
-            <td class="cell--number">7</td>
-            <td class="cell--number">7</td>
+            <td class="cell--number">9</td>
+            <td class="cell--number">6</td>
+            <td class="cell--number">6</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">4.00</td>
+            <td class="cell--number">2.17</td>
             
           </tr>
         
@@ -354,13 +354,13 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="5">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="5">
+            
             
 
             
 
-            <code class="ruby">  def create</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -371,7 +371,7 @@
 
             
 
-            <code class="ruby">    @team = Team.find_by(params[hometown: :hometown])</code>
+            <code class="ruby">  def create</code>
           </li>
         </div>
       
@@ -382,18 +382,18 @@
 
             
 
-            <code class="ruby">    @competition = Competition.find(params[:competition_id])</code>
+            <code class="ruby">    @team = Team.find_by(hometown: params[:hometown],</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="8">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="8">
+            
             
 
             
 
-            <code class="ruby">    CompetitionTeam.create!(team_id: @team.id, competition_id: @competition.id)</code>
+            <code class="ruby">                         nickname: params[:nickname])</code>
           </li>
         </div>
       
@@ -404,12 +404,34 @@
 
             
 
+            <code class="ruby">    @competition = Competition.find(params[:competition_id])</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="10">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    CompetitionTeam.create!(team_id: @team.id, competition_id: @competition.id)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="11">
+            <span class="hits">1</span>
+            
+
+            
+
             <code class="ruby">    redirect_to competition_path(@competition)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="10">
+          <li class="never" data-hits="" data-linenumber="12">
             
             
 
@@ -420,7 +442,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="11">
+          <li class="never" data-hits="" data-linenumber="13">
             
             
 
@@ -632,8 +654,8 @@
     
 
     <div class="t-line-summary">
-      <b>7</b> relevant lines.
-      <span class="green"><b>7</b> lines covered</span> and
+      <b>6</b> relevant lines.
+      <span class="green"><b>6</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -678,7 +700,18 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="4">
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  has_many :players, through: :teams</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="5">
             
             
 
@@ -689,7 +722,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="5">
+          <li class="covered" data-hits="1" data-linenumber="6">
             <span class="hits">1</span>
             
 
@@ -700,40 +733,18 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="8" data-linenumber="6">
-            <span class="hits">8</span>
-            
-
-            
-
-            <code class="ruby">    x = teams.joins(:players).pluck(:age)</code>
-          </li>
-        </div>
-      
-        <div>
           <li class="covered" data-hits="8" data-linenumber="7">
             <span class="hits">8</span>
             
 
             
 
-            <code class="ruby">    y = (x.sum/x.count)</code>
+            <code class="ruby">    players.average(:age).to_f.round(2)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="8" data-linenumber="8">
-            <span class="hits">8</span>
-            
-
-            
-
-            <code class="ruby">    y</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="9">
+          <li class="never" data-hits="" data-linenumber="8">
             
             
 
@@ -744,7 +755,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="10">
+          <li class="never" data-hits="" data-linenumber="9">
             
             
 
@@ -1765,7 +1776,7 @@
 
             
 
-            <code class="ruby">    expect(page).to_not have_content(@team1.hometown)</code>
+            <code class="ruby">    expect(page).to_not have_content(@team2.hometown)</code>
           </li>
         </div>
       
@@ -1776,7 +1787,7 @@
 
             
 
-            <code class="ruby">    expect(page).to_not have_content(@team1.nickname)</code>
+            <code class="ruby">    expect(page).to_not have_content(@team2.nickname)</code>
           </li>
         </div>
       
@@ -1842,7 +1853,7 @@
 
             
 
-            <code class="ruby">    fill_in &quot;hometown&quot;, with: @team1.hometown</code>
+            <code class="ruby">    fill_in &quot;hometown&quot;, with: @team2.hometown</code>
           </li>
         </div>
       
@@ -1853,7 +1864,7 @@
 
             
 
-            <code class="ruby">    fill_in &quot;nickname&quot;, with: @team1.nickname</code>
+            <code class="ruby">    fill_in &quot;nickname&quot;, with: @team2.nickname</code>
           </li>
         </div>
       
@@ -1908,7 +1919,7 @@
 
             
 
-            <code class="ruby">    expect(page).to have_content(@team1.hometown)</code>
+            <code class="ruby">    expect(page).to have_content(@team2.hometown)</code>
           </li>
         </div>
       
@@ -1919,7 +1930,7 @@
 
             
 
-            <code class="ruby">    expect(page).to have_content(@team1.nickname)</code>
+            <code class="ruby">    expect(page).to have_content(@team2.nickname)</code>
           </li>
         </div>
       
